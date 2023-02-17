@@ -18,8 +18,13 @@ https://gitforwindows.org/
 ### Git BASH
 Git for Windows provides a BASH emulation used to run Git from the command line. It is installed as part of the Git for Windows install.
 
-### BASH as default
-To set Git-Bash as the default terminal shell in VSCode:   
+### setting Git Bash as VScode default   
+
+You may want to set this shell as the default in VSCode.    
+I've chosen to just select it when needed.   
+You do this in the dropdown in the upper-right corner of the terminal pane.
+
+If you prefer to have Git Bash as the default in Code: 
 
  - open settings in vscode  -- file -> preferences -> settings
  - search -> terminal.integrated.defaultProfile.windows
@@ -29,9 +34,9 @@ To set Git-Bash as the default terminal shell in VSCode:
  ```
  "terminal.integrated.defaultProfile.windows": "Git Bash"
  ```
-Now, whenever you open a new terminal in Code, it will default to BASH.
+Now, whenever you open a new terminal in Code, it will default to Git Bash.
 
-You can still open a new CMD or Powershell terminal from the drop-down in the top-right of the terminal pane.   
+You can still open a new `Command` or `Powershell` terminal from the drop-down in the top-right of the terminal pane.   
 
-The Git-BASH shell even support `Shebang` files.
+The Git Bash shell even support `Shebang` files.
 
